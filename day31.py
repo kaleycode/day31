@@ -13,7 +13,6 @@ def colorText(color, word):
     print("\033[35m", word, sep="", end="")
   elif color =="cyan":
     print("\033[36m", word, sep="", end="")
-
   else:
     print("\033[0m", word, sep="", end="")
     
