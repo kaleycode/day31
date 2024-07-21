@@ -16,7 +16,7 @@ def colorText(color, word):
 
   else:
     print("\033[0m", word, sep="", end="")
-
+    
 topLine = "WELCOME TO"
 print(f"{topLine: ^50}")
 armbook = f"--    ARMBOOK    --"
